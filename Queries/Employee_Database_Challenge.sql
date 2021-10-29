@@ -8,15 +8,12 @@ ON(e.emp_no = titles.emp_no)
 WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
 ORDER BY e.emp_no;
 
+--Deliverable 1 #8 to #14
+SELECT 	DISTINCT ON (rt.emp_no) rt.emp_no, rt.first_name, rt.last_name, rt.title
+INTO unique_titles
+FROM retirement_titles as rt	
+ORDER BY rt.emp_no, rt.to_date DESC;
 
 
 
--- Use Dictinct with Orderby to remove duplicate rows
-SELECT DISTINCT ON (______) _____,
-______,
-______,
-______
 
-INTO nameyourtable
-FROM _______
-ORDER BY _____, _____ DESC;
