@@ -1,9 +1,6 @@
 # Pewlett-Hackard Silver Tsunami Analysis
 ## Overview
-The purpose of the analysis is as follows:
-1. Identify employees who are retiring soon by their current titles;
-2. Determine the number of retiring employees by their current titles; and
-3. Identify current mentorship eligible employees by their titles in order to match them with retiring employees for mentorship opportunities.
+The purpose of the analysis is to identify mentorship eligible employees by their current titles in order to match them with retiring employees for mentorship opportunities. This is so that when the large group of senior employees retire, the organization can ideally continue to function optimally.
 
 ## Key Findings
 Number of retiring employees by title:
